@@ -695,7 +695,6 @@
         }
       ]
     },
-   
     {
       "beta": false,
       "bundleIdentifier": "eu.pokemmo.client",
