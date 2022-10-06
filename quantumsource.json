@@ -75,6 +75,190 @@
       ]
     },
     {
+      "name": "RetroArch",
+      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
+      "developerName": "libretro",
+      "subtitle": "Cross-platform, sophisticated frontend for emulation.",
+      "version": "1.9.0",
+      "versionDate": "2020-08-07",
+      "versionDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
+      "localizedDescription": "RetroArch is a frontend for a plethora of emulators. Almost every Retro console can be run using one of RetroArch's downloadable cores.\n\nThere are several ways to customize your experience by installing different themes, rearranging your touchscreen controls, and downloading game box art.\nRetroArch enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nIn addition to this, you will soon be able to run original game discs (CDs) from RetroArch.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!\n\nCheck out all of RetroArch's awesome features at our website: https://www.retroarch.com/",
+      "iconURL": "https://i.imgur.com/pqgVB0v.png",
+      "tintColor": "#000000",
+      "size": 255389680,
+      "screenshotURLs": [
+        "https://i.imgur.com/uv1x1c4.png",
+        "https://i.imgur.com/qJdyNl2.png",
+        "https://i.imgur.com/fijaR4n.png",
+        "https://i.imgur.com/B3J5zMB.png",
+        "https://i.imgur.com/4Mj77IY.png"
+      ],
+      "versions": [
+        {
+          "version": "1.9.0",
+          "date": "2020-08-07",
+          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
+          "localizedDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
+          "size": 255389680
+        }
+      ],
+      "appID": "com.libretro.dist.ios.RetroArch"
+    },
+    {
+      "name": "Flappy Bird",
+      "bundleIdentifier": "org.brandonplank.flappybird",
+      "developerName": "Brandon Plank",
+      "subtitle": "A revival of the once popular game.",
+      "version": "4.3",
+      "versionDate": "2022-06-14T20:54:11Z",
+      "versionDescription": "# 4.3\n\n**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
+      "downloadURL": "https://github.com/crypticplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
+      "localizedDescription": "This Flappy Bird is a revival of the original Flappy Bird by Dong Nguyen. There are a many new features to enhance gameplay as well!\n\n\u2022 Tap to flap\n\u2022 Avoid the hitting the pipes\n\u2022 Flap for infinity!",
+      "iconURL": "https://i.imgur.com/tIUJeSs.png",
+      "tintColor": "#49cc48",
+      "size": 2099365,
+      "screenshotURLs": [
+        "https://i.imgur.com/nIq1VVv.png",
+        "https://i.imgur.com/TZBdg7M.png",
+        "https://i.imgur.com/41u9JUh.png"
+      ],
+      "absoluteVersion": "4.3",
+      "versions": [
+        {
+          "version": "4.3",
+          "date": "2022-06-14T20:54:11Z",
+          "downloadURL": "https://github.com/crypticplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
+          "localizedDescription": "# 4.3\n\n**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
+          "size": 2099365,
+          "absoluteVersion": "4.3"
+        }
+      ]
+    },
+    {
+      "name": "iNDS",
+      "bundleIdentifier": "net.nerd.iNDS",
+      "developerName": "iNDS Team",
+      "subtitle": "Revival of the Nintendo DS emulator for iOS.",
+      "version": "1.10.8",
+      "versionDate": "2021-03-01T22:39:20Z",
+      "versionDescription": "Version 1.10.8 fixes the cover art system, thus closing #190. ~~There also appears to be an issue with the previous Cydia release being corrupted, so hopefully, that is fixed in this version.~~\r\n\r\n**Full Changelog**\r\n- Fixed cover art system (#203). Thanks, @unlmtd.\r\n- Fixed compilation errors (#191). Thanks, @jdkula.",
+      "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
+      "localizedDescription": "iNDS is a derivation of the previous Nintendo DS emulator apps for iOS: nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. The iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
+      "iconURL": "https://i.imgur.com/DbWJeF8.png",
+      "tintColor": "#fc2125",
+      "size": 8553596,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
+        }
+      ],
+      "screenshotURLs": [
+        "https://i.imgur.com/ap8Er1K.png",
+        "https://i.imgur.com/EgfrobI.png",
+        "https://i.imgur.com/9gLwHGD.png"
+      ],
+      "versions": [
+        {
+          "version": "1.10.8",
+          "date": "2021-03-01T22:39:20Z",
+          "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
+          "localizedDescription": "Version 1.10.8 fixes the cover art system, thus closing #190. ~~There also appears to be an issue with the previous Cydia release being corrupted, so hopefully, that is fixed in this version.~~\r\n\r\n**Full Changelog**\r\n- Fixed cover art system (#203). Thanks, @unlmtd.\r\n- Fixed compilation errors (#191). Thanks, @jdkula.",
+          "size": 8553596
+        }
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "bundleIdentifier": "org.coolstar.odyssey",
+      "developerName": "Odyssey Team",
+      "subtitle": "A new jailbreak for a new era.",
+      "version": "1.4.2",
+      "versionDate": "2022-02-18",
+      "versionDescription": "- Update Sileo to 2.3\n- Replace Packix with Havoc as default repo",
+      "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.2/Odyssey-1.4.2.ipa",
+      "localizedDescription": "Supporting iOS Versions: 13.0 - 13.7.\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
+      "iconURL": "https://theodyssey.dev/assets/images/icon.png",
+      "tintColor": "D287F4",
+      "size": 27200000,
+      "beta": false,
+      "screenshotURLs": [
+        "https://theodyssey.dev/assets/images/ss-1.png",
+        "https://theodyssey.dev/assets/images/ss-2.png",
+        "https://theodyssey.dev/assets/images/ss-3.png"
+      ],
+      "versions": [
+        {
+          "version": "1.4.2",
+          "date": "2022-02-18",
+          "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.2/Odyssey-1.4.2.ipa",
+          "localizedDescription": "- Update Sileo to 2.3\n- Replace Packix with Havoc as default repo",
+          "size": 27200000
+        }
+      ],
+      "appID": "org.coolstar.odyssey"
+    },
+    {
+      "name": "iDOS",
+      "bundleIdentifier": "com.litchie.idosgames",
+      "developerName": "litchie",
+      "subtitle": "Play DOS games on iOS.",
+      "version": "2.1",
+      "versionDate": "2020-10-20",
+      "versionDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
+      "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
+      "localizedDescription": "Play classic DOS games on your iPhone and iPad!\n\niDOS turns your device right into a powerful DOS gaming PC, with modern game control to make your old favorites as playable as possible.\n\nYou can also use iDOS for non-gaming purposes, such as word processing, casual programming. Apps in the DOS days are often simpler and surprisingly productive.\n\nKEYBOARD\n\niDOS provides a PC compatible on-screen keyboard with carefully designed layouts for different devices and orientations. The keyboard has a sliding control in landscape mode so that you can keep it from covering critical part of the screen.\n\nBluetooth keyboard is partially supported. We support ESC, function keys, and ordinary CTRL and ALT key bindings. Unfortunately the arrow keys can't be used for game control. You should use a bluetooth game controller instead.\n\nGAMEPAD\n\niDOS provides a virtual gamepad with key bindings that are fairly common in DOS games. You can customize the bindings. The DPAD works in 8-axis way. It can also be toggled into a joystick.\n\nExternal bluetooth game controllers are supported. Make sure your game controller is connected (System Settings->Bluetooth). To customize button bindings, go to iDOS in landscape mode, tap on bluetooth icon on the auto-hiding top bar.\n\nMOUSE\n\n* The screen area serves as a trackpad for moving mouse pointer.\n* Tap on the screen for left click. If direct touch is enabled, the mouse pointer will move to where you tap.\n* Hold one finger on the screen, and tap with another finger for right click.\n* On-screen mouse buttons are also provided for your convenience.\n* Bluetooth mice are only partially supported.\n\nSUPPORT\n\n- Visit https://litchie.com/dospad for more information.\n- Send email to idos@litchie.com\n- Follow the developer on Twitter: https://twitter.com/litchiedev\n- iDOS is open source, report issues on https://github.com/litchie/dospad",
+      "iconURL": "https://i.imgur.com/Yah6zFk.png",
+      "tintColor": "#042eef",
+      "size": 5704322,
+      "screenshotURLs": [
+        "https://i.imgur.com/hRMA2Zr.png",
+        "https://i.imgur.com/gvhvQpo.png",
+        "https://i.imgur.com/NHOE1ba.png",
+        "https://i.imgur.com/eBEqmnt.png"
+      ],
+      "versions": [
+        {
+          "version": "2.1",
+          "date": "2020-10-20",
+          "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
+          "localizedDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
+          "size": 5704322
+        }
+      ]
+    },
+    {
+      "name": "Taurine",
+      "bundleIdentifier": "org.coolstar.taurine",
+      "developerName": "Odyssey Team",
+      "subtitle": "Time to get amped.",
+      "version": "1.1.6",
+      "versionDate": "2022-07-17T12:33:15Z",
+      "versionDescription": "# 1.1.6\n\n- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
+      "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
+      "localizedDescription": "Taurine is an iOS 14.0-14.3 jailbreak, utilizing Procursus and Libhooker.",
+      "iconURL": "https://taurine.app/assets/images/icon.png",
+      "tintColor": "#F65656",
+      "size": 31938370,
+      "screenshotURLs": [
+        "https://taurine.app/assets/images/ss-1.png",
+        "https://taurine.app/assets/images/ss-2.png",
+        "https://taurine.app/assets/images/ss-3.png"
+      ],
+      "absoluteVersion": "1.1.6",
+      "versions": [
+        {
+          "version": "1.1.6",
+          "date": "2022-07-17T12:33:15Z",
+          "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
+          "localizedDescription": "# 1.1.6\n\n- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
+          "size": 31938370,
+          "absoluteVersion": "1.1.6"
+        }
+      ]
+    },
+    {
       "name": "Firebird Emu",
       "bundleIdentifier": "com.firebird.firebird-emu",
       "developerName": "nspire-emus",
@@ -160,40 +344,6 @@
           "localizedDescription": "# Release 1.6\n\n- Rename to Ready.\r\n\r\n- Add Commodore 16 and Plus/4 emulation.\r\n\r\n- Add ZX Spectrum emulation. Supported models are 16k, 48k, Specturm+, 128k, +2.\r\n\r\n- Add new app icons, one for each supported computer.\r\n",
           "size": 63972294,
           "absoluteVersion": "1.6"
-        }
-      ]
-    },
-    {
-      "name": "iNDS",
-      "bundleIdentifier": "net.nerd.iNDS",
-      "developerName": "iNDS Team",
-      "subtitle": "Revival of the Nintendo DS emulator for iOS.",
-      "version": "1.10.8",
-      "versionDate": "2021-03-01T22:39:20Z",
-      "versionDescription": "Version 1.10.8 fixes the cover art system, thus closing #190. ~~There also appears to be an issue with the previous Cydia release being corrupted, so hopefully, that is fixed in this version.~~\r\n\r\n**Full Changelog**\r\n- Fixed cover art system (#203). Thanks, @unlmtd.\r\n- Fixed compilation errors (#191). Thanks, @jdkula.",
-      "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
-      "localizedDescription": "iNDS is a derivation of the previous Nintendo DS emulator apps for iOS: nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. The iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
-      "iconURL": "https://i.imgur.com/DbWJeF8.png",
-      "tintColor": "#fc2125",
-      "size": 8553596,
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/ap8Er1K.png",
-        "https://i.imgur.com/EgfrobI.png",
-        "https://i.imgur.com/9gLwHGD.png"
-      ],
-      "versions": [
-        {
-          "version": "1.10.8",
-          "date": "2021-03-01T22:39:20Z",
-          "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
-          "localizedDescription": "Version 1.10.8 fixes the cover art system, thus closing #190. ~~There also appears to be an issue with the previous Cydia release being corrupted, so hopefully, that is fixed in this version.~~\r\n\r\n**Full Changelog**\r\n- Fixed cover art system (#203). Thanks, @unlmtd.\r\n- Fixed compilation errors (#191). Thanks, @jdkula.",
-          "size": 8553596
         }
       ]
     },
@@ -323,6 +473,31 @@
       ]
     },
     {
+      "name": "Play!",
+      "bundleIdentifier": "com.virtualapplications.play",
+      "developerName": "Jean-Philip Desjardins",
+      "subtitle": "PlayStation 2 Games on iOS.",
+      "version": "0.50",
+      "versionDate": "2022-03-07",
+      "versionDescription": "Bug fixes.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Play.ipa",
+      "localizedDescription": "Play! is a portable PlayStation2 emulator. The focus of the project is on making PlayStation2 emulation easy and accessible. Just pop in your favorite game's disc and have fun!\n\n\u2022 No BIOS required. Play! is an high-level emulator.\n\u2022 Easy configuration. No custom settings to fix specific games.\n\u2022 Available on many platforms, making sure the experience is the same quality everywhere.",
+      "iconURL": "https://i.imgur.com/NOi1cdl.png",
+      "tintColor": "#5f5fff",
+      "size": 12346902,
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.50",
+          "date": "2022-03-07",
+          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Play.ipa",
+          "localizedDescription": "Bug fixes.",
+          "size": 12346902
+        }
+      ],
+      "appID": "com.virtualapplications.play"
+    },
+    {
       "name": "iTorrent",
       "bundleIdentifier": "ru.nonamedude.iTorrent",
       "developerName": "XITRIX",
@@ -354,67 +529,6 @@
           "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
           "localizedDescription": "What's new:\n\n\u2022 Text accessibility support added\n\u2022 Huge backend refactoring\n\u2022 Libtorrent updated to 1.2.9\n\u2022 Minor UI improvements\n\u2022 Many bugs fixed (possibly new ones added)",
           "size": 21218913
-        }
-      ]
-    },
-    {
-      "name": "RetroArch",
-      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
-      "developerName": "libretro",
-      "subtitle": "Cross-platform, sophisticated frontend for emulation.",
-      "version": "1.9.0",
-      "versionDate": "2020-08-07",
-      "versionDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
-      "localizedDescription": "RetroArch is a frontend for a plethora of emulators. Almost every Retro console can be run using one of RetroArch's downloadable cores.\n\nThere are several ways to customize your experience by installing different themes, rearranging your touchscreen controls, and downloading game box art.\nRetroArch enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nIn addition to this, you will soon be able to run original game discs (CDs) from RetroArch.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!\n\nCheck out all of RetroArch's awesome features at our website: https://www.retroarch.com/",
-      "iconURL": "https://i.imgur.com/pqgVB0v.png",
-      "tintColor": "#000000",
-      "size": 255389680,
-      "screenshotURLs": [
-        "https://i.imgur.com/uv1x1c4.png",
-        "https://i.imgur.com/qJdyNl2.png",
-        "https://i.imgur.com/fijaR4n.png",
-        "https://i.imgur.com/B3J5zMB.png",
-        "https://i.imgur.com/4Mj77IY.png"
-      ],
-      "versions": [
-        {
-          "version": "1.9.0",
-          "date": "2020-08-07",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
-          "localizedDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-          "size": 255389680
-        }
-      ],
-      "appID": "com.libretro.dist.ios.RetroArch"
-    },
-    {
-      "name": "Flappy Bird",
-      "bundleIdentifier": "org.brandonplank.flappybird",
-      "developerName": "Brandon Plank",
-      "subtitle": "A revival of the once popular game.",
-      "version": "4.3",
-      "versionDate": "2022-06-14T20:54:11Z",
-      "versionDescription": "# 4.3\n\n**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
-      "downloadURL": "https://github.com/crypticplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
-      "localizedDescription": "This Flappy Bird is a revival of the original Flappy Bird by Dong Nguyen. There are a many new features to enhance gameplay as well!\n\n\u2022 Tap to flap\n\u2022 Avoid the hitting the pipes\n\u2022 Flap for infinity!",
-      "iconURL": "https://i.imgur.com/tIUJeSs.png",
-      "tintColor": "#49cc48",
-      "size": 2099365,
-      "screenshotURLs": [
-        "https://i.imgur.com/nIq1VVv.png",
-        "https://i.imgur.com/TZBdg7M.png",
-        "https://i.imgur.com/41u9JUh.png"
-      ],
-      "absoluteVersion": "4.3",
-      "versions": [
-        {
-          "version": "4.3",
-          "date": "2022-06-14T20:54:11Z",
-          "downloadURL": "https://github.com/crypticplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
-          "localizedDescription": "# 4.3\n\n**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
-          "size": 2099365,
-          "absoluteVersion": "4.3"
         }
       ]
     },
@@ -581,120 +695,7 @@
         }
       ]
     },
-    {
-      "name": "Play!",
-      "bundleIdentifier": "com.virtualapplications.play",
-      "developerName": "Jean-Philip Desjardins",
-      "subtitle": "PlayStation 2 Games on iOS.",
-      "version": "0.50",
-      "versionDate": "2022-03-07",
-      "versionDescription": "Bug fixes.",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Play.ipa",
-      "localizedDescription": "Play! is a portable PlayStation2 emulator. The focus of the project is on making PlayStation2 emulation easy and accessible. Just pop in your favorite game's disc and have fun!\n\n\u2022 No BIOS required. Play! is an high-level emulator.\n\u2022 Easy configuration. No custom settings to fix specific games.\n\u2022 Available on many platforms, making sure the experience is the same quality everywhere.",
-      "iconURL": "https://i.imgur.com/NOi1cdl.png",
-      "tintColor": "#5f5fff",
-      "size": 12346902,
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "0.50",
-          "date": "2022-03-07",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Play.ipa",
-          "localizedDescription": "Bug fixes.",
-          "size": 12346902
-        }
-      ],
-      "appID": "com.virtualapplications.play"
-    },
-    {
-      "name": "Odyssey",
-      "bundleIdentifier": "org.coolstar.odyssey",
-      "developerName": "Odyssey Team",
-      "subtitle": "A new jailbreak for a new era.",
-      "version": "1.4.2",
-      "versionDate": "2022-02-18",
-      "versionDescription": "- Update Sileo to 2.3\n- Replace Packix with Havoc as default repo",
-      "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.2/Odyssey-1.4.2.ipa",
-      "localizedDescription": "Supporting iOS Versions: 13.0 - 13.7.\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
-      "iconURL": "https://theodyssey.dev/assets/images/icon.png",
-      "tintColor": "D287F4",
-      "size": 27200000,
-      "beta": false,
-      "screenshotURLs": [
-        "https://theodyssey.dev/assets/images/ss-1.png",
-        "https://theodyssey.dev/assets/images/ss-2.png",
-        "https://theodyssey.dev/assets/images/ss-3.png"
-      ],
-      "versions": [
-        {
-          "version": "1.4.2",
-          "date": "2022-02-18",
-          "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.2/Odyssey-1.4.2.ipa",
-          "localizedDescription": "- Update Sileo to 2.3\n- Replace Packix with Havoc as default repo",
-          "size": 27200000
-        }
-      ],
-      "appID": "org.coolstar.odyssey"
-    },
-    {
-      "name": "iDOS",
-      "bundleIdentifier": "com.litchie.idosgames",
-      "developerName": "litchie",
-      "subtitle": "Play DOS games on iOS.",
-      "version": "2.1",
-      "versionDate": "2020-10-20",
-      "versionDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
-      "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
-      "localizedDescription": "Play classic DOS games on your iPhone and iPad!\n\niDOS turns your device right into a powerful DOS gaming PC, with modern game control to make your old favorites as playable as possible.\n\nYou can also use iDOS for non-gaming purposes, such as word processing, casual programming. Apps in the DOS days are often simpler and surprisingly productive.\n\nKEYBOARD\n\niDOS provides a PC compatible on-screen keyboard with carefully designed layouts for different devices and orientations. The keyboard has a sliding control in landscape mode so that you can keep it from covering critical part of the screen.\n\nBluetooth keyboard is partially supported. We support ESC, function keys, and ordinary CTRL and ALT key bindings. Unfortunately the arrow keys can't be used for game control. You should use a bluetooth game controller instead.\n\nGAMEPAD\n\niDOS provides a virtual gamepad with key bindings that are fairly common in DOS games. You can customize the bindings. The DPAD works in 8-axis way. It can also be toggled into a joystick.\n\nExternal bluetooth game controllers are supported. Make sure your game controller is connected (System Settings->Bluetooth). To customize button bindings, go to iDOS in landscape mode, tap on bluetooth icon on the auto-hiding top bar.\n\nMOUSE\n\n* The screen area serves as a trackpad for moving mouse pointer.\n* Tap on the screen for left click. If direct touch is enabled, the mouse pointer will move to where you tap.\n* Hold one finger on the screen, and tap with another finger for right click.\n* On-screen mouse buttons are also provided for your convenience.\n* Bluetooth mice are only partially supported.\n\nSUPPORT\n\n- Visit https://litchie.com/dospad for more information.\n- Send email to idos@litchie.com\n- Follow the developer on Twitter: https://twitter.com/litchiedev\n- iDOS is open source, report issues on https://github.com/litchie/dospad",
-      "iconURL": "https://i.imgur.com/Yah6zFk.png",
-      "tintColor": "#042eef",
-      "size": 5704322,
-      "screenshotURLs": [
-        "https://i.imgur.com/hRMA2Zr.png",
-        "https://i.imgur.com/gvhvQpo.png",
-        "https://i.imgur.com/NHOE1ba.png",
-        "https://i.imgur.com/eBEqmnt.png"
-      ],
-      "versions": [
-        {
-          "version": "2.1",
-          "date": "2020-10-20",
-          "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
-          "localizedDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
-          "size": 5704322
-        }
-      ]
-    },
-    {
-      "name": "Taurine",
-      "bundleIdentifier": "org.coolstar.taurine",
-      "developerName": "Odyssey Team",
-      "subtitle": "Time to get amped.",
-      "version": "1.1.6",
-      "versionDate": "2022-07-17T12:33:15Z",
-      "versionDescription": "# 1.1.6\n\n- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
-      "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
-      "localizedDescription": "Taurine is an iOS 14.0-14.3 jailbreak, utilizing Procursus and Libhooker.",
-      "iconURL": "https://taurine.app/assets/images/icon.png",
-      "tintColor": "#F65656",
-      "size": 31938370,
-      "screenshotURLs": [
-        "https://taurine.app/assets/images/ss-1.png",
-        "https://taurine.app/assets/images/ss-2.png",
-        "https://taurine.app/assets/images/ss-3.png"
-      ],
-      "absoluteVersion": "1.1.6",
-      "versions": [
-        {
-          "version": "1.1.6",
-          "date": "2022-07-17T12:33:15Z",
-          "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
-          "localizedDescription": "# 1.1.6\n\n- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
-          "size": 31938370,
-          "absoluteVersion": "1.1.6"
-        }
-      ]
-    },
+   
     {
       "beta": false,
       "bundleIdentifier": "eu.pokemmo.client",
