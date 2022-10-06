@@ -17,18 +17,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 sourcesData = [
     {
         "parser": AltSourceParser,
-        "kwargs": {"filepath": "https://altstore.oatmealdome.me"},
-        "ids": ["me.oatmealdome.dolphinios-njb", "me.oatmealdome.DolphiniOS-njb-patreon-beta"]
-    },
-    {
-        "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource.json"},
         "ids": ["com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
-    },
-    {
-        "parser": AltSourceParser,
-        "kwargs": {"filepath": "https://provenance-emu.com/apps.json"},
-        "ids": ["org.provenance-emu.provenance"]
     },
     {
         "parser": AltSourceParser,
